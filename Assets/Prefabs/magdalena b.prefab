@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &154882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450984}
+  - 33: {fileID: 3309344}
+  - 23: {fileID: 2373328}
+  - 60: {fileID: 6043298}
+  - 114: {fileID: 11441874}
+  m_Layer: 0
+  m_Name: magdalena b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &450984
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2373328
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154882}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8efa79fb6e9225547aaef4667b5a1a92, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3309344
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154882}
+  m_Mesh: {fileID: 4300000, guid: 88df8b9267d17104db7a02e78755671e, type: 2}
+--- !u!60 &6043298
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154882}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: .540000021, y: -1.15999997}
+      - {x: .50999999, y: -1.00999999}
+      - {x: .550000012, y: -.879999995}
+      - {x: .649999976, y: -.689999998}
+      - {x: .720000029, y: -.5}
+      - {x: .810000002, y: -.310000002}
+      - {x: .829999983, y: -.189999998}
+      - {x: .839999974, y: -.0599999987}
+      - {x: .959999979, y: .159999996}
+      - {x: 1.02999997, y: .370000005}
+      - {x: 1.15999997, y: .689999998}
+      - {x: 1.16999996, y: .829999983}
+      - {x: 1.16999996, y: .899999976}
+      - {x: 1.14999998, y: .939999998}
+      - {x: 1, y: .930000007}
+      - {x: .790000021, y: .730000019}
+      - {x: .680000007, y: .689999998}
+      - {x: .689999998, y: .769999981}
+      - {x: .75999999, y: .839999974}
+      - {x: .779999971, y: .920000017}
+      - {x: .75, y: .930000007}
+      - {x: .709999979, y: .939999998}
+      - {x: .689999998, y: .899999976}
+      - {x: .49000001, y: .819999993}
+      - {x: .379999995, y: .850000024}
+      - {x: .379999995, y: .959999979}
+      - {x: .430000007, y: .980000019}
+      - {x: .379999995, y: 1.12}
+      - {x: .300000012, y: 1.25}
+      - {x: .25999999, y: 1.28999996}
+      - {x: .200000003, y: 1.28999996}
+      - {x: .159999996, y: 1.27999997}
+      - {x: .129999995, y: 1.03999996}
+      - {x: .0500000007, y: .920000017}
+      - {x: -.0599999987, y: .860000014}
+      - {x: -.119999997, y: .790000021}
+      - {x: -.280000001, y: .660000026}
+      - {x: -.370000005, y: .569999993}
+      - {x: -.479999989, y: .439999998}
+      - {x: -.629999995, y: .270000011}
+      - {x: -.75999999, y: .0500000007}
+      - {x: -.860000014, y: -.230000004}
+      - {x: -.910000026, y: -.330000013}
+      - {x: -1.17999995, y: -.629999995}
+      - {x: -1.17999995, y: -.699999988}
+      - {x: -1.08000004, y: -.779999971}
+      - {x: -.899999976, y: -.810000002}
+      - {x: -.829999983, y: -.810000002}
+      - {x: -.649999976, y: -.769999981}
+      - {x: -.550000012, y: -.699999988}
+      - {x: -.479999989, y: -.779999971}
+      - {x: -.439999998, y: -.860000014}
+      - {x: -.330000013, y: -.959999979}
+      - {x: -.219999999, y: -.949999988}
+      - {x: -.100000001, y: -.920000017}
+      - {x: .100000001, y: -1.22000003}
+      - {x: .170000002, y: -1.26999998}
+      - {x: .230000004, y: -1.27999997}
+      - {x: .289999992, y: -1.27999997}
+      - {x: .310000002, y: -1.26999998}
+      - {x: .340000004, y: -1.23000002}
+      - {x: .430000007, y: -1.21000004}
+--- !u!114 &11441874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cef2454a21291ad48959a05e738b3db6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 154882}
+  m_IsPrefabParent: 1

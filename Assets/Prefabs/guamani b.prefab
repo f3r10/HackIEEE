@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &123316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 403884}
+  - 33: {fileID: 3302078}
+  - 23: {fileID: 2315022}
+  - 60: {fileID: 6072316}
+  - 114: {fileID: 11489338}
+  m_Layer: 0
+  m_Name: guamani b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403884
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2315022
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123316}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7bda11512072ab24d8459ac09834e8ed, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3302078
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123316}
+  m_Mesh: {fileID: 4300000, guid: 68517a3f2360d6e4eb78c3e79c54f53d, type: 2}
+--- !u!60 &6072316
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123316}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: 1.19000006, y: -2.25}
+      - {x: 1.17999995, y: -1.79999995}
+      - {x: 1.19000006, y: -1.78999996}
+      - {x: 1.23000002, y: -1.55999994}
+      - {x: 1.25, y: -1.41999996}
+      - {x: 1.26999998, y: -1.22000003}
+      - {x: 1.26999998, y: -.879999995}
+      - {x: 1.24000001, y: -.720000029}
+      - {x: 1.20000005, y: -.5}
+      - {x: 1.12, y: -.300000012}
+      - {x: 1.04999995, y: .0900000036}
+      - {x: 1.03999996, y: .449999988}
+      - {x: 1.05999994, y: .449999988}
+      - {x: 1.04999995, y: .930000007}
+      - {x: 1.02999997, y: 1.12}
+      - {x: 1.08000004, y: 1.30999994}
+      - {x: 1.19000006, y: 1.89999998}
+      - {x: 1.25999999, y: 2.18000007}
+      - {x: 1.33000004, y: 2.32999992}
+      - {x: 1.48000002, y: 2.47000003}
+      - {x: 1.51999998, y: 2.52999997}
+      - {x: 1.51999998, y: 2.5999999}
+      - {x: 1.49000001, y: 2.63000011}
+      - {x: 1.20000005, y: 2.71000004}
+      - {x: 1.09000003, y: 2.70000005}
+      - {x: .800000012, y: 2.68000007}
+      - {x: .589999974, y: 2.6400001}
+      - {x: .280000001, y: 2.70000005}
+      - {x: .209999993, y: 2.75999999}
+      - {x: .140000001, y: 2.77999997}
+      - {x: .109999999, y: 2.77999997}
+      - {x: .100000001, y: 2.75999999}
+      - {x: .0900000036, y: 2.67000008}
+      - {x: .140000001, y: 2.51999998}
+      - {x: .150000006, y: 2.3599999}
+      - {x: .109999999, y: 2.1400001}
+      - {x: .0500000007, y: 2.11999989}
+      - {x: 0, y: 2.0999999}
+      - {x: -.159999996, y: 2.0999999}
+      - {x: -.189999998, y: 2.19000006}
+      - {x: -.25, y: 2.28999996}
+      - {x: -.400000006, y: 2.24000001}
+      - {x: -.550000012, y: 2.18000007}
+      - {x: -.720000029, y: 2.11999989}
+      - {x: -.850000024, y: 2}
+      - {x: -.860000014, y: 1.77999997}
+      - {x: -1.01999998, y: 1.39999998}
+      - {x: -1.09000003, y: 1.32000005}
+      - {x: -1.08000004, y: 1.03999996}
+      - {x: -1.32000005, y: .75}
+      - {x: -1.38999999, y: .579999983}
+      - {x: -1.38999999, y: .449999988}
+      - {x: -1.38, y: .430000007}
+      - {x: -1.10000002, y: .379999995}
+      - {x: -1.07000005, y: .270000011}
+      - {x: -.899999976, y: .0500000007}
+      - {x: -.899999976, y: -.0799999982}
+      - {x: -.939999998, y: -.25}
+      - {x: -1.00999999, y: -.360000014}
+      - {x: -1.14999998, y: -.5}
+      - {x: -1.41999996, y: -.649999976}
+      - {x: -1.51999998, y: -.769999981}
+      - {x: -1.51999998, y: -.829999983}
+      - {x: -1.47000003, y: -.850000024}
+      - {x: -1.33000004, y: -.879999995}
+      - {x: -1.10000002, y: -.889999986}
+      - {x: -1.02999997, y: -.930000007}
+      - {x: -.889999986, y: -.939999998}
+      - {x: -.699999988, y: -1.05999994}
+      - {x: -.460000008, y: -1.26999998}
+      - {x: -.370000005, y: -1.28999996}
+      - {x: -.0900000036, y: -1.33000004}
+      - {x: 0, y: -1.36000001}
+      - {x: .0599999987, y: -1.44000006}
+      - {x: .100000001, y: -1.58000004}
+      - {x: .129999995, y: -1.67999995}
+      - {x: .189999998, y: -1.75}
+      - {x: .460000008, y: -2.01999998}
+      - {x: .560000002, y: -2.17000008}
+      - {x: .560000002, y: -2.26999998}
+      - {x: .50999999, y: -2.23000002}
+      - {x: .460000008, y: -2.25}
+      - {x: .460000008, y: -2.28999996}
+      - {x: .670000017, y: -2.43000007}
+      - {x: .879999995, y: -2.61999989}
+      - {x: .939999998, y: -2.66000009}
+      - {x: 1.08000004, y: -2.74000001}
+      - {x: 1.25, y: -2.77999997}
+      - {x: 1.29999995, y: -2.77999997}
+      - {x: 1.36000001, y: -2.72000003}
+      - {x: 1.33000004, y: -2.57999992}
+      - {x: 1.24000001, y: -2.3900001}
+--- !u!114 &11489338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cef2454a21291ad48959a05e738b3db6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 123316}
+  m_IsPrefabParent: 1

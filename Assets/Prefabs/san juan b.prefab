@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445742}
+  - 33: {fileID: 3329908}
+  - 23: {fileID: 2344172}
+  - 60: {fileID: 6030918}
+  - 114: {fileID: 11438084}
+  m_Layer: 0
+  m_Name: san juan b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &445742
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2344172
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124270}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1df50bf3e532b1b46a4bd59c82ddde0b, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3329908
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124270}
+  m_Mesh: {fileID: 4300000, guid: 3473369d031cc294ca5e0abd0cd25a75, type: 2}
+--- !u!60 &6030918
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124270}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -.150000006, y: -.709999979}
+      - {x: -.0700000003, y: -.560000002}
+      - {x: -.0199999996, y: -.589999974}
+      - {x: 0, y: -.569999993}
+      - {x: .0500000007, y: -.50999999}
+      - {x: .189999998, y: -.620000005}
+      - {x: .430000007, y: -.769999981}
+      - {x: .540000021, y: -.790000021}
+      - {x: .699999988, y: -.699999988}
+      - {x: .709999979, y: -.680000007}
+      - {x: .75999999, y: -.50999999}
+      - {x: .889999986, y: -.550000012}
+      - {x: 1.07000005, y: -.529999971}
+      - {x: 1.17999995, y: -.400000006}
+      - {x: 1.26999998, y: -.289999992}
+      - {x: 1.45000005, y: .0399999991}
+      - {x: 1.47000003, y: .119999997}
+      - {x: 1.57000005, y: .280000001}
+      - {x: 1.61000001, y: .379999995}
+      - {x: 1.61000001, y: .629999995}
+      - {x: 1.34000003, y: .889999986}
+      - {x: 1.25, y: .930000007}
+      - {x: 1.12, y: .930000007}
+      - {x: 1.04999995, y: .899999976}
+      - {x: .930000007, y: .810000002}
+      - {x: .680000007, y: .600000024}
+      - {x: .569999993, y: .589999974}
+      - {x: .200000003, y: .5}
+      - {x: .0299999993, y: .49000001}
+      - {x: -.0299999993, y: .400000006}
+      - {x: -.189999998, y: .389999986}
+      - {x: -.370000005, y: .419999987}
+      - {x: -.560000002, y: .50999999}
+      - {x: -.819999993, y: .660000026}
+      - {x: -.99000001, y: .649999976}
+      - {x: -1.09000003, y: .689999998}
+      - {x: -1.22000003, y: .689999998}
+      - {x: -1.32000005, y: .639999986}
+      - {x: -1.48000002, y: .689999998}
+      - {x: -1.52999997, y: .610000014}
+      - {x: -1.55999994, y: .340000004}
+      - {x: -1.52999997, y: .270000011}
+      - {x: -1.61000001, y: -.00999999978}
+      - {x: -1.61000001, y: -.0599999987}
+      - {x: -1.42999995, y: -.119999997}
+      - {x: -1.41999996, y: -.289999992}
+      - {x: -1.36000001, y: -.330000013}
+      - {x: -1.22000003, y: -.379999995}
+      - {x: -.910000026, y: -.649999976}
+      - {x: -.790000021, y: -.75999999}
+      - {x: -.730000019, y: -.899999976}
+      - {x: -.620000005, y: -.920000017}
+      - {x: -.560000002, y: -.920000017}
+      - {x: -.529999971, y: -.879999995}
+      - {x: -.409999996, y: -.730000019}
+      - {x: -.219999999, y: -.74000001}
+--- !u!114 &11438084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cef2454a21291ad48959a05e738b3db6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 124270}
+  m_IsPrefabParent: 1

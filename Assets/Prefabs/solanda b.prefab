@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &121938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 486960}
+  - 33: {fileID: 3343576}
+  - 23: {fileID: 2378042}
+  - 60: {fileID: 6068010}
+  - 114: {fileID: 11495512}
+  m_Layer: 0
+  m_Name: solanda b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486960
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2378042
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121938}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 554a59225379a434eb13d305b43634dd, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3343576
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121938}
+  m_Mesh: {fileID: 4300000, guid: a3ce8d034b661d749b1c0054a8657464, type: 2}
+--- !u!60 &6068010
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121938}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: .449999988, y: -1.13999999}
+      - {x: .829999983, y: -.720000029}
+      - {x: .959999979, y: -.540000021}
+      - {x: 1.11000001, y: -.219999999}
+      - {x: 1.14999998, y: -.0799999982}
+      - {x: 1.25, y: .25999999}
+      - {x: 1.26999998, y: .400000006}
+      - {x: 1.26999998, y: .529999971}
+      - {x: 1.25999999, y: .550000012}
+      - {x: .970000029, y: .629999995}
+      - {x: .899999976, y: .629999995}
+      - {x: .850000024, y: .720000029}
+      - {x: .560000002, y: 1.02999997}
+      - {x: .460000008, y: 1.16999996}
+      - {x: .379999995, y: 1.24000001}
+      - {x: .270000011, y: 1.24000001}
+      - {x: .189999998, y: 1.16999996}
+      - {x: 0, y: 1.03999996}
+      - {x: -.25999999, y: .870000005}
+      - {x: -.389999986, y: .870000005}
+      - {x: -.5, y: .860000014}
+      - {x: -.639999986, y: .889999986}
+      - {x: -.790000021, y: .879999995}
+      - {x: -.959999979, y: .99000001}
+      - {x: -1.02999997, y: .970000029}
+      - {x: -1.09000003, y: .779999971}
+      - {x: -1.15999997, y: .439999998}
+      - {x: -1.22000003, y: .00999999978}
+      - {x: -1.22000003, y: -.150000006}
+      - {x: -1.26999998, y: -.409999996}
+      - {x: -1.26999998, y: -.449999988}
+      - {x: -1.04999995, y: -.660000026}
+      - {x: -.910000026, y: -.649999976}
+      - {x: -.850000024, y: -.639999986}
+      - {x: -.75, y: -.730000019}
+      - {x: -.670000017, y: -.75}
+      - {x: -.569999993, y: -.75999999}
+      - {x: -.400000006, y: -.860000014}
+      - {x: -.25, y: -.949999988}
+      - {x: -.209999993, y: -1.12}
+      - {x: -.119999997, y: -1.22000003}
+      - {x: -.0799999982, y: -1.24000001}
+      - {x: -.00999999978, y: -1.24000001}
+      - {x: .0500000007, y: -1.11000001}
+      - {x: .0700000003, y: -1.11000001}
+      - {x: .310000002, y: -1.16999996}
+--- !u!114 &11495512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cef2454a21291ad48959a05e738b3db6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 121938}
+  m_IsPrefabParent: 1
